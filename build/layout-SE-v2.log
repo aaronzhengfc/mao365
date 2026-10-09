@@ -1,0 +1,71 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project iOS/Mao365.xcodeproj -scheme Mao365 -destination "platform=iOS Simulator,id=89672050-7C74-4203-89A9-7FB39090C427" -derivedDataPath iOS/build/DerivedData -resultBundlePath iOS/build/Layout-SE-v2.xcresult "-only-testing:Mao365UITests/Mao365UITests/testSwipeFromDay4ToDay5DoesNotResizeTheArtwork" -parallel-testing-enabled NO CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+Writing result bundle at path:
+	/Users/fuchengzheng/Documents/github/mao365/iOS/build/Layout-SE-v2.xcresult
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, arch:arm64, id:89672050-7C74-4203-89A9-7FB39090C427, OS:18.1, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:89672050-7C74-4203-89A9-7FB39090C427, OS:18.1, name:iPhone SE (3rd generation) }
+2026-10-10 01:06:57.063350+0800 Mao365UITests-Runner[55733:1670773] [Default] Running tests...
+2026-10-10 01:06:57.089812+0800 Mao365UITests-Runner[55733:1671018] [General] Failed to send CA Event for app launch measurements for ca_event_type: 0 event_name: com.apple.app_launch_measurement.FirstFramePresentationMetric
+2026-10-10 01:06:57.131564+0800 Mao365UITests-Runner[55733:1671027] [General] Failed to send CA Event for app launch measurements for ca_event_type: 1 event_name: com.apple.app_launch_measurement.ExtendedLaunchMetrics
+Test Suite 'Selected tests' started at 2026-10-10 01:07:01.128.
+Test Suite 'Mao365UITests.xctest' started at 2026-10-10 01:07:01.128.
+Test Suite 'Mao365UITests' started at 2026-10-10 01:07:01.128.
+Test Case '-[Mao365UITests.Mao365UITests testSwipeFromDay4ToDay5DoesNotResizeTheArtwork]' started.
+    t =     0.00s Start Test at 2026-10-10 01:07:01.129
+    t =     0.31s Set Up
+    t =     0.32s Open com.mao365.catjourney
+    t =     0.32s     Launch com.mao365.catjourney
+2026-10-10 01:07:01.901 xcodebuild[55340:1666809] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-10 01:07:01.901 xcodebuild[55340:1666809] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.80s         Setting up automation session
+    t =     2.51s         Wait for com.mao365.catjourney to idle
+    t =     3.96s Waiting 10.0s for "album.image.D004" Image to exist
+    t =     5.00s     Checking `Expect predicate `existsNoRetry == 1` for object "album.image.D004" Image`
+    t =     5.00s         Checking existence of `"album.image.D004" Image`
+    t =     5.22s Find the "album.image.D004" Image
+    t =     5.24s Find the "album.dayPicker" Button
+    t =     5.25s Swipe left "album.image.D004" Image
+    t =     5.25s     Wait for com.mao365.catjourney to idle
+    t =     5.25s     Find the "album.image.D004" Image
+    t =     5.27s     Check for interrupting elements affecting "album.image.D004" Image
+    t =     5.29s     Synthesize event
+    t =     5.85s     Wait for com.mao365.catjourney to idle
+    t =     6.06s Waiting 10.0s for "album.image.D005" Image to exist
+    t =     7.10s     Checking `Expect predicate `existsNoRetry == 1` for object "album.image.D005" Image`
+    t =     7.10s         Checking existence of `"album.image.D005" Image`
+    t =     7.14s Find the "album.image.D005" Image
+    t =     7.15s Find the "album.dayPicker" Button
+    t =     7.16s Tap "album.description" Any
+    t =     7.16s     Wait for com.mao365.catjourney to idle
+    t =     7.16s     Find the "album.description" Any
+    t =     7.17s     Check for interrupting elements affecting "album.description" Button
+    t =     7.19s     Synthesize event
+    t =     7.49s     Wait for com.mao365.catjourney to idle
+    t =     7.92s Waiting 5.0s for "album.fullDescription" StaticText to exist
+    t =     8.96s     Checking `Expect predicate `existsNoRetry == 1` for object "album.fullDescription" StaticText`
+    t =     8.96s         Checking existence of `"album.fullDescription" StaticText`
+    t =     9.00s Find the "album.fullDescription" StaticText
+    t =     9.01s Tear Down
+Test Case '-[Mao365UITests.Mao365UITests testSwipeFromDay4ToDay5DoesNotResizeTheArtwork]' passed (9.264 seconds).
+Test Suite 'Mao365UITests' passed at 2026-10-10 01:07:10.393.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.264 (9.264) seconds
+Test Suite 'Mao365UITests.xctest' passed at 2026-10-10 01:07:10.393.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.264 (9.265) seconds
+Test Suite 'Selected tests' passed at 2026-10-10 01:07:10.393.
+	 Executed 1 test, with 0 failures (0 unexpected) in 9.264 (9.265) seconds
+2026-10-10 01:07:10.738 xcodebuild[55340:1666809] [MT] IDETestOperationsObserverDebug: 44.017 elapsed -- Testing started completed.
+2026-10-10 01:07:10.738 xcodebuild[55340:1666809] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-10 01:07:10.738 xcodebuild[55340:1666809] [MT] IDETestOperationsObserverDebug: 44.017 sec, +44.017 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/fuchengzheng/Documents/github/mao365/iOS/build/Layout-SE-v2.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

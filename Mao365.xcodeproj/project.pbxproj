@@ -1,0 +1,48 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		0461F4CA123E06A3DF6E3139 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mao365App.swift"; sourceTree = "<group>"; };
+		07D05A78B22236AB345743D5 = { isa = PBXBuildFile; fileRef = 0461F4CA123E06A3DF6E3139; };
+		5A0303269823A61ABB7E1D70 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumStore.swift"; sourceTree = "<group>"; };
+		F76FF7FAA80CCA20E97C604B = { isa = PBXBuildFile; fileRef = 5A0303269823A61ABB7E1D70; };
+		FBEFEB796B0B5FA7D4A0B263 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumView.swift"; sourceTree = "<group>"; };
+		4976C622411757AD8AFF84CA = { isa = PBXBuildFile; fileRef = FBEFEB796B0B5FA7D4A0B263; };
+		5BA774DAE64BAE7E8B1E74A9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mao365UITests.swift"; sourceTree = "<group>"; };
+		95ECA30EFC57E939FD15BDE5 = { isa = PBXBuildFile; fileRef = 5BA774DAE64BAE7E8B1E74A9; };
+		1BC63D0059C87654CB263292 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68719D25442AF591056A3CB4 = { isa = PBXFileReference; lastKnownFileType = text.json; path = "album-2027.json"; sourceTree = "<group>"; };
+		9DF323510C3B965637DFD566 = { isa = PBXBuildFile; fileRef = 1BC63D0059C87654CB263292; };
+		3ED3A892AFE68539FA1D9762 = { isa = PBXBuildFile; fileRef = 68719D25442AF591056A3CB4; };
+		F434D4E4866B6C4D1CD83EAC = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mao365.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EE613B067886A61EDECAD8 = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mao365UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0002AF07D01CBD5386A5F35C = { isa = PBXGroup; children = (68719D25442AF591056A3CB4,); path = Resources; sourceTree = "<group>"; };
+		80398A32DC613993720C15C7 = { isa = PBXGroup; children = (0461F4CA123E06A3DF6E3139, 5A0303269823A61ABB7E1D70, FBEFEB796B0B5FA7D4A0B263, 1BC63D0059C87654CB263292, 0002AF07D01CBD5386A5F35C,); path = Mao365; sourceTree = "<group>"; };
+		694ABB884BB735DFFCFD4496 = { isa = PBXGroup; children = (5BA774DAE64BAE7E8B1E74A9,); path = Mao365UITests; sourceTree = "<group>"; };
+		54689237503EF14D5935E537 = { isa = PBXGroup; children = (F434D4E4866B6C4D1CD83EAC, 03EE613B067886A61EDECAD8,); name = Products; sourceTree = "<group>"; };
+		0072565E4136A5F12692FCB7 = { isa = PBXGroup; children = (80398A32DC613993720C15C7, 694ABB884BB735DFFCFD4496, 54689237503EF14D5935E537,); sourceTree = "<group>"; };
+		551479E376CF8C1E2B3314F2 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (07D05A78B22236AB345743D5, F76FF7FAA80CCA20E97C604B, 4976C622411757AD8AFF84CA,); runOnlyForDeploymentPostprocessing = 0; };
+		76E234A0EDE9934478801197 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (9DF323510C3B965637DFD566, 3ED3A892AFE68539FA1D9762,); runOnlyForDeploymentPostprocessing = 0; };
+		B00D2BB50C21B0E561DF48B0 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		846E494E844B80A39AC90989 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (95ECA30EFC57E939FD15BDE5,); runOnlyForDeploymentPostprocessing = 0; };
+		FB26B52B7F5B11E781C37D31 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		5799865F966A2C0EA71DBDEB = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		3822B985B861DC4EF86DD796 = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; CLANG_WARN_DOCUMENTATION_COMMENTS = "YES"; GCC_C_LANGUAGE_STANDARD = "gnu17"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; SDKROOT = "iphoneos"; SWIFT_VERSION = "5.0"; ENABLE_USER_SCRIPT_SANDBOXING = "YES"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = "dwarf"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; }; name = Debug; };
+		6365B47A1FA57B28762D1B1B = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = "YES"; CLANG_ENABLE_OBJC_ARC = "YES"; CLANG_WARN_DOCUMENTATION_COMMENTS = "YES"; GCC_C_LANGUAGE_STANDARD = "gnu17"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; SDKROOT = "iphoneos"; SWIFT_VERSION = "5.0"; ENABLE_USER_SCRIPT_SANDBOXING = "YES"; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+		64EF20E40F2B0218617660ED = { isa = XCConfigurationList; buildConfigurations = (3822B985B861DC4EF86DD796, 6365B47A1FA57B28762D1B1B,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F28E3A1EABE87E5D39B5F7A3 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.mao365.catjourney"; GENERATE_INFOPLIST_FILE = "YES"; INFOPLIST_KEY_CFBundleDisplayName = "猫猫365"; INFOPLIST_KEY_UILaunchScreen_Generation = "YES"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = "YES"; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait"; TARGETED_DEVICE_FAMILY = "1"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; CODE_SIGN_STYLE = "Automatic"; CURRENT_PROJECT_VERSION = "1"; MARKETING_VERSION = "1.0"; SWIFT_EMIT_LOC_STRINGS = "YES"; ENABLE_PREVIEWS = "YES"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; name = Debug; };
+		00B3C1FD2BA1F96AFFB589D3 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.mao365.catjourney"; GENERATE_INFOPLIST_FILE = "YES"; INFOPLIST_KEY_CFBundleDisplayName = "猫猫365"; INFOPLIST_KEY_UILaunchScreen_Generation = "YES"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = "YES"; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait"; TARGETED_DEVICE_FAMILY = "1"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; CODE_SIGN_STYLE = "Automatic"; CURRENT_PROJECT_VERSION = "1"; MARKETING_VERSION = "1.0"; SWIFT_EMIT_LOC_STRINGS = "YES"; ENABLE_PREVIEWS = "YES"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; name = Release; };
+		69A06389083C5DA5E4DEECB0 = { isa = XCConfigurationList; buildConfigurations = (F28E3A1EABE87E5D39B5F7A3, 00B3C1FD2BA1F96AFFB589D3,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		66070AB0D2E59CF0AAE795DC = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.mao365.catjourney.uitests"; GENERATE_INFOPLIST_FILE = "YES"; TEST_TARGET_NAME = "Mao365"; TARGETED_DEVICE_FAMILY = "1"; CODE_SIGN_STYLE = "Automatic"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Debug; };
+		CCC109ABF0593206572160A9 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = "com.mao365.catjourney.uitests"; GENERATE_INFOPLIST_FILE = "YES"; TEST_TARGET_NAME = "Mao365"; TARGETED_DEVICE_FAMILY = "1"; CODE_SIGN_STYLE = "Automatic"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; name = Release; };
+		50E1C7E0A72B7A65E096D1A2 = { isa = XCConfigurationList; buildConfigurations = (66070AB0D2E59CF0AAE795DC, CCC109ABF0593206572160A9,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		62C7413B0E606DCD272AA19B = { isa = PBXContainerItemProxy; containerPortal = 244210E48437B6556980A702; proxyType = 1; remoteGlobalIDString = 4EE3BA8A9481E98E099A273B; remoteInfo = Mao365; };
+		28767CE83F8C972A97892D47 = { isa = PBXTargetDependency; target = 4EE3BA8A9481E98E099A273B; targetProxy = 62C7413B0E606DCD272AA19B; };
+		4EE3BA8A9481E98E099A273B = { isa = PBXNativeTarget; buildConfigurationList = 69A06389083C5DA5E4DEECB0; buildPhases = (551479E376CF8C1E2B3314F2, B00D2BB50C21B0E561DF48B0, 76E234A0EDE9934478801197,); buildRules = (); dependencies = (); name = Mao365; productName = Mao365; productReference = F434D4E4866B6C4D1CD83EAC; productType = "com.apple.product-type.application"; };
+		56BF85837E22661BC6859963 = { isa = PBXNativeTarget; buildConfigurationList = 50E1C7E0A72B7A65E096D1A2; buildPhases = (846E494E844B80A39AC90989, 5799865F966A2C0EA71DBDEB, FB26B52B7F5B11E781C37D31,); buildRules = (); dependencies = (28767CE83F8C972A97892D47,); name = Mao365UITests; productName = Mao365UITests; productReference = 03EE613B067886A61EDECAD8; productType = "com.apple.product-type.bundle.ui-testing"; };
+		244210E48437B6556980A702 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2650; TargetAttributes = { 4EE3BA8A9481E98E099A273B = { CreatedOnToolsVersion = "26.5"; }; 56BF85837E22661BC6859963 = { CreatedOnToolsVersion = "26.5"; TestTargetID = 4EE3BA8A9481E98E099A273B; }; }; }; buildConfigurationList = 64EF20E40F2B0218617660ED; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh-Hans; hasScannedForEncodings = 0; knownRegions = ("zh-Hans", en, Base); mainGroup = 0072565E4136A5F12692FCB7; productRefGroup = 54689237503EF14D5935E537; projectDirPath = ""; projectRoot = ""; targets = (4EE3BA8A9481E98E099A273B, 56BF85837E22661BC6859963,); };
+	};
+	rootObject = 244210E48437B6556980A702;
+}

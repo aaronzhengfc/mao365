@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests-primary.dia",
+    "emit-module-dependencies" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests-primary-emit-module.dia",
+    "pch" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests-primary.swiftdeps"
+  },
+  "/Users/fuchengzheng/Documents/github/mao365/iOS/Mao365UITests/Mao365UITests.swift" : {
+    "const-values" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.swiftconstvalues",
+    "dependencies" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.d",
+    "diagnostics" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.dia",
+    "index-unit-output-path" : "/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.o",
+    "llvm-bc" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.bc",
+    "object" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.o",
+    "swift-dependencies" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests.swiftdeps",
+    "swiftmodule" : "/Users/fuchengzheng/Documents/github/mao365/iOS/build/DerivedData/Build/Intermediates.noindex/Mao365.build/Debug-iphonesimulator/Mao365UITests.build/Objects-normal/x86_64/Mao365UITests~partial.swiftmodule"
+  }
+}

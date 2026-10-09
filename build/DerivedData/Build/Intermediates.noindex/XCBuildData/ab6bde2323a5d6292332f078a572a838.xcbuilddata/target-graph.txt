@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Mao365' in project 'Mao365' (no dependencies)

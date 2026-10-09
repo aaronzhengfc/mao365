@@ -1,0 +1,43 @@
+{
+  "project": "Mao365.xcodeproj",
+  "scheme": "Mao365",
+  "records": 365,
+  "image_assets": [
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D005"
+  ],
+  "minimum_ios": "17.0",
+  "xcode": "26.5",
+  "tested_device": "iPhone 17 Pro",
+  "tested_ios": "26.5",
+  "build": "passed",
+  "ui_tests": {
+    "count": 4,
+    "failures": 0,
+    "result_bundle": "build/Layout-v4.xcresult"
+  },
+  "screenshots": [
+    "Previews/Day01-iPhone17Pro-v2.png",
+    "Previews/Day05-iPhone17Pro-v2.png"
+  ],
+  "layout": "Fixed artwork viewport and caption height for every day; complete 9:16 illustration; two-line description; tap to read full scene; warm-white paper, warm brown Day number and quiet typography.",
+  "small_screen_regression": {
+    "device": "iPhone SE (3rd generation)",
+    "ios": "18.1",
+    "tests": 1,
+    "failures": 0,
+    "result_bundle": "build/Layout-SE-v2.xcresult"
+  },
+  "regression": "Swiping Day 4 to Day 5 preserves artwork x/y/width/height and caption position within 0.5 pt on both iPhone 17 Pro and iPhone SE.",
+  "drawing_animation": false,
+  "static_restoration": {
+    "build": "passed",
+    "tests": 1,
+    "failures": 0,
+    "result_bundle": "build/Static-restored.xcresult",
+    "behavior": "Original static UIImage display restored; drawing implementation and playback removed; Day 4 to Day 5 dimensions regression passed."
+  }
+}

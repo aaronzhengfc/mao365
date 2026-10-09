@@ -1,0 +1,40 @@
+{
+  "records": 365,
+  "imported_images": [
+    {
+      "id": "D001",
+      "date": "2027-01-01",
+      "source": "output/first-10-v1/cat365-2027-D001-2027-01-01.png",
+      "asset": "iOS/Mao365/Assets.xcassets/D001.imageset/D001.png",
+      "sha256": "05aef60d89ed24f23fccd8f29fb7236658db9ba87495aba836a147b528af7b1c"
+    },
+    {
+      "id": "D002",
+      "date": "2027-01-02",
+      "source": "output/first-10-v1/cat365-2027-D002-2027-01-02.png",
+      "asset": "iOS/Mao365/Assets.xcassets/D002.imageset/D002.png",
+      "sha256": "1d49df0672ee270a3be5803386c60380e51e31f1008d5674df14e1be18103b69"
+    },
+    {
+      "id": "D003",
+      "date": "2027-01-03",
+      "source": "output/first-10-v1/cat365-2027-D003-2027-01-03.png",
+      "asset": "iOS/Mao365/Assets.xcassets/D003.imageset/D003.png",
+      "sha256": "784d54ea7d03d488b52bab35b0ccfba4aa7a5ad98bec55c93fd210e6bf804203"
+    },
+    {
+      "id": "D004",
+      "date": "2027-01-04",
+      "source": "output/first-10-v1/cat365-2027-D004-2027-01-04.png",
+      "asset": "iOS/Mao365/Assets.xcassets/D004.imageset/D004.png",
+      "sha256": "bef626b4d563ec4cb731d1b762d2c5cdca28f4b79ffbdfa510c81365e621b536"
+    },
+    {
+      "id": "D005",
+      "date": "2027-01-05",
+      "source": "output/first-10-v1/cat365-2027-D005-2027-01-05-v2.png",
+      "asset": "iOS/Mao365/Assets.xcassets/D005.imageset/D005.png",
+      "sha256": "5c6253e29577afa24ac16fc21d3b588969f8cfc935a4e128055856de975a0b5a"
+    }
+  ]
+}
