@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+
+# Xcode build products and local caches
+build/
+DerivedData/
+.build/
+*.xcresult
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Xcode settings specific to each developer
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+.swiftpm/xcode/xcuserdata/

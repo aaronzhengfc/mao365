@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'Mao365UITests' in project 'Mao365'
-➜ Explicit dependency on target 'Mao365' in project 'Mao365'
-Target 'Mao365' in project 'Mao365' (no dependencies)
